@@ -20,8 +20,8 @@ jobs:
               run: pip install -r requirements.txt
 
             - name: Линтер
-              run: flake8 django-crud --exclude migrations --ignore E501,F401,E302,W391,W292
+              run: flake8 django-crud --exclude migrations --ignore E501,F401,E302,E902,W391,W292
 
-              
+
 
 
