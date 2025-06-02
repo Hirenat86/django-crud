@@ -43,7 +43,7 @@ jobs:
               run: flake8 django-crud --exclude migrations --ignore E501,F401,E302,E902,W391,W292
             
             - name: Тесты
-              run: python django-crud/manage.py test
+              run: python ./manage.py test
               env: 
                 PG_NAME: ${{env.PG_NAME}}
                 PG_USER: ${{env.PG_USER}}
