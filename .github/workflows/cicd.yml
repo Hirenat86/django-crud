@@ -67,7 +67,7 @@ jobs:
             script: |
               cd django-crud/
               git pull
-              sudo systemctl restart gunicorn
+              
 
 
 
