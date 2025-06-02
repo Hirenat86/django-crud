@@ -61,7 +61,7 @@ jobs:
         - name: Деплой
           uses: appleboy/ssh-action@master
           with:
-            host: ${{env.SSH_HOST}}
+            host: 194.67.84.153
             username: ${{env.SSH_USERNAME}}
             password: ${{env.SSH_PASSWORD}}
             script: |
