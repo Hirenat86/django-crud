@@ -62,8 +62,8 @@ jobs:
           uses: appleboy/ssh-action@master
           with:
             host: 194.67.84.153
-            username: ${{env.SSH_USERNAME}}
-            password: ${{env.SSH_PASSWORD}}
+            username: ubuntu
+            password: Qwh912dimas
             script: |
               cd django-crud/
               git pull
